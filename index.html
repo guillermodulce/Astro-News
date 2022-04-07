@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <link href="script.js" rel="text/javascript">
+
+        <title>Astro🌠News</title>
+        <link rel="icon" type="image/x-icon" href="images/planetariofav.png">
+    </head>
+    <body>
+
+      <hr/>
+        <header>
+          <div>
+            <a class="navbar-brand" href="index.html"><h1>Astro🌠News</h1></a>
+          </div>
+        </header>
+
+
+
+
+        <hr/>
+        <div>
+            <h2 class="astrosubtitulo">Astronomía para todos desde Argentina</h2>
+        </div>
+        <hr/>
+
+
+        <!-- Navigation Menu -->
+
+        <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Astro🌠News</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse nav" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+               <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="constelaciones.html">Constelaciones</a>
+                  </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="planetarios.html">Planetarios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="software.html">Software</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Noticias
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="eventos.html">Eventos astronómicos</a></li>
+                      <li><a class="dropdown-item" href="misiones.html">Misiones Espaciales</a></li>
+                      <li><a class="dropdown-item" href="telescopios.html">Telescopios</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+<!--
+            <nav class="navbar navbar-light style="background-color: #e3f2fd;">
+              <div class="container-fluid">
+                <form class="d-flex">
+                  <input id="busqueda" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-info" type="submit">Buscar</button>
+                </form>
+              </div>
+            </nav>
+
+-->
+
+          </nav>
+
+
+          <hr/>
+
+          <!-- Cards Bootstrap -->
+
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <a href = "eventos.html"><img src="images/eventosastro.jpg" class="card-img-top" alt="Eventos Astronómicos"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Eventos Astronómicos</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <a href = "misiones.html"><img src="images/misiones.jpg" class="card-img-top" alt="Misiones Espaciales"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Misiones Espaciales</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <a href = "telescopios.html"><img src="images/telescopios.jpg" class="card-img-top" alt="Telescopios"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Telescopios</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <hr/>
+
+          <section>
+            <div class="container">
+              <img class="img-fluid" src="images/solar.jpg" alt="sistema solar" >
+            </div>
+          </section>
+
+          <hr/>
+
+          <section>
+            <div>
+              <div id="txtagencias" class="agencias">
+
+                <h4><strong>Agencias espaciales</strong></h4>
+            <ul>
+            <li><a href="http://www.nasa.gov/" target="_blank" rel="noopener noreferrer">Administración Nacional del Espacio y la Aeronáutica (NASA), Estados Unidos</a></li>
+            <li><a title="Agencia Espacial Canadiense (CSA/ASC) " href="http://www.asc-csa.gc.ca/eng/Default.asp" target="_blank" rel="noopener noreferrer">Agencia Espacial Canadiense (CSA/ASC) </a></li>
+            <li><a href="http://www.esa.int/export/esaCP/Spain.html" target="_blank" rel="noopener noreferrer">Agencia Espacial Europea (ESA) </a></li>
+            <li><a title="Agencia Japonesa de Exploración Espacial (JAXA)" href="http://global.jaxa.jp/" target="_blank" rel="noopener noreferrer">Agencia Japonesa de Exploración Espacial (JAXA) </a></li>
+            <li><a title="Agencia Espacial Federal Rusa (FKA, Roscosmos)" href="http://en.roscosmos.ru/" target="_blank" rel="noopener noreferrer">Agencia Espacial Federal Rusa (FKA, Roscosmos) </a></li>
+            <li><a href="http://www.asi.it/" target="_blank" rel="noopener noreferrer">Agencia Espacial Italiana (ASI) </a></li>
+            <li><a href="http://www.cnes.fr/html/_.php" target="_blank" rel="noopener noreferrer">Centro Nacional de Estudios del Espacio (CNES), Francia </a>&nbsp;</li>
+            </ul></div>
+            </div>
+          </section>
+
+          <hr/>
+
+          <section>
+            <div>
+              <img class="img-fluid" src="images/planetsize.gif" alt="planet size">
+            </div>
+          </section>
+
+          <hr/>
+
+          <section class="contact">
+            <div class="u-wrapper">
+              <div class="contact-content">
+
+                <form id="form" action="" class="form" action="https://api.web3forms.com/submit" method="POST">
+                  <input type="hidden" name="access_key" value="3172656a-73f0-4ef7-bbb0-c6f6c7dcf225">
+                  <h3 class="tag"><span>HABLEMOS</span></h3>
+                  <label for="name">Nombre Completo <span>*</span></label>
+                  <input name="name" required type="text" id="name" placeholder="Tu nombre">
+                  <label for="email">Correo electrónico <span>*</span></label>
+                  <input name="email" type="text" id="email" required placeholder="correo@mail.com">
+                  <label for="message">Mensaje</label>
+                  <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+                  <button type="submit" class="btn primary full">enviar mensaje</button>
+                  <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                </form>
+                <a href="blocktechdesign@gmail.com" id="trucazo"></a>
+              </div>
+            </div>
+          </section>
+          <footer class="footer">
+            <div class="social">
+              <i class="social-item">
+                <img src="images/icons/phone.svg" alt="">
+              </i>
+              <i class="social-item">
+                <img src="images/icons/envelope.svg" alt="">
+              </i>
+              <i class="social-item">
+                <img src="images/icons/instagram.svg" alt="">
+              </i>
+              <i class="social-item">
+                <img src="images/icons/twitter.svg" alt="">
+              </i>
+            </div>
+            <hr/>
+            <p class="footer-message">
+              ©2022 ⭐ By Guillermo Dulce
+            </p>
+            <hr/>
+          </footer>
+
+          <script>
+            const $form = document.querySelector('#form')
+
+            $form.addEventListener('submit', handleSubmit)
+
+            async function handleSubmit(event) {
+              event.preventDefault()
+              const form = new FormData(this)
+              const response = await fetch(this.action, {
+                method: this.method,
+                body: form,
+                headers: {
+                  'Accept': 'application/json'
+                }
+              })
+              if (response.ok) {
+                this.reset()
+                alert('Gracias por contactarme, te escribiré pronto')
+              }
+            }
+          </script>
+
+
+
+
+
+    </body>
+</html>
