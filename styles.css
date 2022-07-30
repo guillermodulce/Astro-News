@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url("");
+    background-image: url("./images/starBg-c3c73537212b80383bcc387563b91637.jpg");
     background-repeat: no-repeat;
     background-size: auto;
     text-align: center;
@@ -33,7 +33,7 @@ h2 {
 h3 {
     text-align: center;
     text-justify: auto;
-    color: #111;
+    color: #66ccff;
     font-weight: 400;
     margin: 16px 20px 16px 20px;
 }
@@ -41,7 +41,7 @@ h3 {
 h6 {
     text-align: justify;
     text-justify: auto;
-    color: #111;
+    color: #66ccff;
     font-weight: 400;
     margin: 16px 20px 16px 20px;
 }
@@ -67,6 +67,7 @@ ul {
 
 footer {
     text-align: bottom;
+    color: #66ccff;
 }
 
 hr {
@@ -115,10 +116,12 @@ hr {
 
   .contact {
     margin-block-end: 5em;
+    color: #66ccff;
   }
 
   .footer {
     text-align: center;
+    color: #66ccff;
   }
 
   #trucazo {
@@ -128,6 +131,7 @@ hr {
   .form .tag span {
     display: block;
     text-align: center;
+    color: #66ccff;
   }
 
   .social-item {
@@ -142,14 +146,17 @@ hr {
     border-radius: 4px;
     justify-content: center;
     border: 2px solid var(--black);
+    color: #66ccff;
   }
 
   .social-item + .social-item {
     margin-left: 1em;
+    color: #66ccff;
   }
 
   .social-item img {
     vertical-align: middle;
+    color: #66ccff;
   }
 
   .btn {
@@ -174,6 +181,7 @@ hr {
 
   .btn.primary {
     background: var(--primary);
+    color: #66ccff;
   }
 
   .btn i {
