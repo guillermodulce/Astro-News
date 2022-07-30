@@ -18,8 +18,9 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 50px;
     color: #66ccff;
+    text-align: center;
 }
 
 h2 {
